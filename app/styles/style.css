@@ -1,0 +1,20 @@
+.button-for-file-selection {
+  font-size: 14px;
+  color: #111827;
+}
+
+.button-for-file-selection::file-selector-button {
+  background: #111827;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  margin-right: 12px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.button-for-file-selection::file-selector-button:hover {
+  background: #1f2937;
+}
