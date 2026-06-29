@@ -1,0 +1,19 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "75d0909c45916cab0836a63e5d97213b"
+application_url = "https://bulk-seo-updater.onrender.com"
+embedded = true
+name = "new app seo"
+
+[webhooks]
+api_version = "2026-07"
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products,write_metaobjects,write_metaobject_definitions,read_content,write_content,read_online_store_pages,write_online_store_pages"
+
+[auth]
+redirect_urls = [ "https://bulk-seo-updater.onrender.com/auth/callback" ]
+
+[build]
+automatically_update_urls_on_dev = true

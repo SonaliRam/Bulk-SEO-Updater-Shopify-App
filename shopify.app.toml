@@ -1,7 +1,7 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
 client_id = "c880061914b9a04dafd3be68dc0359fa"
-application_url = "https://example.com"
+application_url = "https://bulk-seo-updater.onrender.com"
 embedded = true
 name = "bulk seo updater"
 
@@ -46,8 +46,7 @@ api_version = "2026-07"
   topics = [ "app/scopes_update" ]
 
 [auth]
-redirect_urls = [ "https://example.com/api/auth" ]
+redirect_urls = [ "https://bulk-seo-updater.onrender.com/auth/callback" ]
 
 [build]
-include_config_on_deploy = true
 automatically_update_urls_on_dev = true
