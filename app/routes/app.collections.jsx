@@ -273,8 +273,8 @@ export default function CollectionsSeoPage() {
         >
           <pre style={{ margin: 0 }}>
             {`handle,seo_title,seo_description
-              frontpage,New collection SEO title,New collection SEO description
-              summer-sale,Best summer collection,Shop summer collection now`}
+          frontpage,New collection SEO title,New collection SEO description
+          summer-sale,Best summer collection,Shop summer collection now`}
           </pre>
         </s-box>
       </s-section>
